@@ -493,7 +493,7 @@ main .main_content .left_box::after {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../../assets/img/1.png) no-repeat left 120px top 450px/130%;
+  background: url(../../assets/img/stick1.png) no-repeat left 120px top 450px/130%;
   transition: all 0.7s;
 }
 main .main_content .left_box h3 span {
@@ -504,7 +504,7 @@ main .main_content .left_box .info {
 }
 main .main_content .left_box .under_box {
   left: 50%;
-  background-image: url(../../assets/img/1\ \(11\).jpeg);
+  background-image: url(../../assets/img/brand-item11.jpeg);
 }
 main .main_content .left_box:hover {
   width: 100%;
@@ -542,7 +542,7 @@ main .main_content .right_box::after {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../../assets/img/1\ \(1\).png) no-repeat right 120px top 447px/130%;
+  background: url(../../assets/img/stick2.png) no-repeat right 120px top 447px/130%;
   transition: all 0.7s;
 }
 main .main_content .right_box h3 {
@@ -571,7 +571,7 @@ main .main_content .right_box .info a {
 }
 main .main_content .right_box .under_box {
   right: 50%;
-  background-image: url(../../assets/img/1\ \(13\).jpeg);
+  background-image: url(../../assets/img/brand-item13.jpeg);
 }
 main .main_content .right_box:hover {
   width: 100%;
@@ -788,6 +788,7 @@ main .best_seller > ul > li:nth-child(n+5):nth-child(-n+6) {
 }
 main .best_seller > ul > li > a {
   display: block;
+  height: 100%;
 }
 main .best_seller > ul > li > a .img_wrap {
   display: block;
@@ -935,10 +936,7 @@ main .last_banner {
   height: 410px;
   margin-bottom: 160px;
 }
-main .last_banner > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+main .last_banner .swiper {
   position: absolute;
   top: 0;
   left: 0;
@@ -946,23 +944,28 @@ main .last_banner > div {
   height: 370px;
   background-color: rgb(250, 243, 227);
 }
-main .last_banner > div > p {
+main .last_banner .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .last_banner .swiper .swiper-wrapper .swiper-slide h3 {
   margin-bottom: 50px;
   padding-top: 68px;
   font-size: 1.8rem;
   font-weight: 400;
 }
-main .last_banner > div h3 {
+main .last_banner .swiper .swiper-wrapper .swiper-slide > p {
   margin-bottom: 20px;
   font-size: 3.2rem;
   font-weight: 400;
   font-family: "NanumMyeongjo";
   text-align: center;
 }
-main .last_banner > div a {
+main .last_banner .swiper .swiper-wrapper .swiper-slide a {
   display: flex;
   align-items: center;
-  min-width: 100px;
+  width: 110px;
   height: 34px;
   padding: 0 18px;
   font-size: 1.3rem;
@@ -970,23 +973,28 @@ main .last_banner > div a {
   border: 1px solid #201f1f;
   transition: all 0.3s;
 }
-main .last_banner > div a:hover {
+main .last_banner .swiper .swiper-wrapper .swiper-slide a:hover {
   box-shadow: 4px 3px 4px 0 rgba(53, 53, 55, 0.19);
 }
-main .last_banner > div .arr_btn button {
+main .last_banner .swiper .swiper-button-next {
   position: absolute;
   top: 170px;
-  background-color: transparent;
-  border: none;
+  right: 400px;
 }
-main .last_banner > div .arr_btn button img {
+main .last_banner .swiper .swiper-button-next img {
   opacity: 0.3;
 }
-main .last_banner > div .arr_btn .button-prev {
+main .last_banner .swiper .swiper-button-prev {
+  position: absolute;
+  top: 170px;
   left: 400px;
 }
-main .last_banner > div .arr_btn .button-next {
-  right: 400px;
+main .last_banner .swiper .swiper-button-prev img {
+  opacity: 0.3;
+}
+main .last_banner .swiper .swiper-button-next::after,
+main .last_banner .swiper .swiper-button-prev::after {
+  display: none;
 }
 main .last_banner > img {
   position: absolute;
