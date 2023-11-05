@@ -5,18 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <title>천지양</title>
 </head>
 <body>
   <div id="wrap">
+    <!---------------------- header (S) -------------------->
     <header>
       <div class="inner">
+        <!------- nav (S) -------->
         <nav>
           <h1><img src="./assets/img/logo.png" alt="천지양 로고 이미지"></h1>
+          <!-- search box (S) -->
           <div class="search_box">
             <form action="#" method="get">
               <fieldset>
-                  <input type="text" placeholder="">
+                  <input type="text" class="randomInput">
                   <button></button>
               </fieldset>
               <div class="hot_issue">
@@ -34,8 +39,10 @@
                   <li><a href="#">홍삼</a></li>
                 </ul>
               </div>
-          </form>
+            </form>
           </div>
+          <!-- search box (E) -->
+          <!-- nav depth (S) -->
           <ul class="nav_depth1">
             <li><a href="#">NEW 블랙마카🔥</a></li>
             <li><a href="#">맞춤형 상품 제안</a></li>
@@ -91,196 +98,266 @@
               </ul>
             </li>
           </ul>
+          <!-- nav depth (E) -->
         </nav>
+        <!------- nav (E) -------->
+        <!------- sub nav (S) -------->
         <ul class="sub_nav">
           <li><a href="#" class="util_icon1"></a></li>
           <li><a href="#" class="util_icon2"></a></li>
-          <li><a href="#" class="util_icon3"></a></li>
+          <li><a href="#" class="util_icon3">
+            <span>0</span>
+          </a></li>
           <li><a href="#" class="util_icon4"></a></li>
           <li><a href="#" class="util_icon5"></a></li>
         </ul>
+        <!------- sub nav (E) -------->
       </div>
     </header>
+    <!---------------------- header (E) -------------------->
+    <!---------------------- main (S) -------------------->
     <main>
-      <div class="inner">
-        <div class="main_banner">
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide item1">
+      <!------- main banner (S) -------->
+      <div class="main_banner">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide item1">
+              <img src="./assets/img/1 (10).jpeg" alt="도라지청 이미지">
+              <div class="text">
                 <h2>환절기 건강을 지켜주는 <br /> 자연의 선물, 도라지청</h2>
                 <span>#국내산 100%<br />#1일 1포</span>
                 <a href="#"></a>
               </div>
-              <div class="swiper-slide item2">
+            </div>
+            <div class="swiper-slide item2">
+              <img src="./assets/img/1 (7).jpeg" alt="헬스밸런스 이미지">
+              <div class="text">
                 <h2>간절기 건강은 헬스밸런스와 함께!</h2>
                 <span>#간절기면역력UP <br />#에너지UP</span>
                 <a href="#"></a>
               </div>
-              <div class="swiper-slide item3">
+            </div>
+            <div class="swiper-slide item3">
+              <img src="./assets/img/1 (9).jpeg" alt="마그네슘 이미지">
+              <div class="text">
                 <h2>매 순간을 활력으로 가득 채우세요!<br />마시는 마그네슘 비플러스</h2>
                 <span>#마마비 #체리맛 #1일1포</span>
                 <a href="#"></a>
               </div>
-              <div class="swiper-slide item4">
+            </div>
+            <div class="swiper-slide item4">
+              <img src="./assets/img/1 (8).jpeg" alt="철분스틱 이미지">
+              <div class="text">
                 <h2>건강한 여성의 필수 아이템!<br />베스처 맛있는 철분스틱</h2>
                 <span>#1일1포 #자두맛 #비린맛NO</span>
                 <a href="#"></a>
               </div>
-              <div class="swiper-slide item5">
+            </div>
+            <div class="swiper-slide item5">
+              <img src="./assets/img/1 (6).jpeg" alt="블랙마카 2000 이미지">
+              <div class="text">
                 <h2>남자에게 특히 좋은,<br />바이탈업 블랙마카 2000</h2>
                 <span>#신제품 출시<br />#활력 발산이 필요한 순간!<br />초고함량 블랙마카 2000mg</span>
                 <a href="#"></a>
               </div>
-              <div class="swiper-slide item6">
+            </div>
+            <div class="swiper-slide item6">
+              <img src="./assets/img/1 (1).jpeg" alt="아르기닌 6000 이미지">
+              <div class="text">
                 <h2>에너지 급속충전!<br />바이탈업 아르기닌 6000</h2>
                 <span>#신제품 출시<br />#초고함량 6,000mg<br />활력 필요 성분 올인원</span>
                 <a href="#"></a>
-              </div>
-              <div class="swiper-slide item7">
+              </div>             
+            </div>
+            <div class="swiper-slide item7">
+              <img src="./assets/img/1 (2).jpeg" alt="홍삼 이미지">
+              <div class="text">
                 <h2>6년근 홍삼의 전부를 담은<br />100% 국내산</h2>
                 <span>#진세노사이드 15mg<br />#천지양 명품 홍삼정 골드</span>
                 <a href="#"></a>
-              </div>
-              <div class="swiper-slide item8">
+              </div>              
+            </div>
+            <div class="swiper-slide item8">
+              <img src="./assets/img/1 (3).jpeg" alt="수면진심 이미지">
+              <div class="text">
                 <h2>편한 잠을 꿈꾸는<br />당신을 위해</h2>
                 <span>숙면에 좋은 원료만 담아,<br />#천지양 수면진:심</span>
                 <a href="#"></a>
-              </div>
-              <div class="swiper-slide item9">
+              </div>              
+            </div>
+            <div class="swiper-slide item9">
+              <img src="./assets/img/1 (4).jpeg" alt="특별할인 이미지">
+              <div class="text">
                 <a href="#"></a>
-              </div>
-              <div class="swiper-slide item10">
+              </div>              
+            </div>
+            <div class="swiper-slide item10">
+              <img src="./assets/img/1 (5).jpeg" alt="데커신 골드 이미지">
+              <div class="text">
                 <h2>관절건강 인지기능<br />토탈케어</h2>
                 <span>#참당귀추출분말&아연<br />#명품 참당귀 데커신 골드</span>
                 <a href="#"></a>
+              </div>              
+            </div>
+          </div>        
+          <div class="swiper_action">
+            <div class="swiper-scrollbar"></div>
+            <button class="btn_pause"></button>
+            <div class="btn_box">
+              <div class="swiper-button-prev"><img src="./assets/img/intro-visual-arrow-prev.png" alt="이전 버튼 이미지"></div>
+              <div class="swiper-button-next"><img src="./assets/img/intro-visual-arrow-next.png" alt="다음 버튼 이미지"></div>
+            </div>            
+          </div>        
+        </div>
+      </div>
+      <!------- main banner (E) --------><section>
+          <!------- main content (S) -------->
+          <article class="main_content">
+            <div class="left_box">
+              <h3>
+                나를 위한
+                <span class="under">내가먹는 홍삼스틱</span>
+                <span class="arrow"></span>
+              </h3>
+              <div class="info">
+                <p>천지양 내가먹는 홍삼스틱(10gX100포)X1박스</p>
+                <div class="grade">
+                  <p class="grade-star">
+                    <span></span>
+                  </p>
+                  <span>(499)</span>
+                </div>
+                <div class="price">
+                  <span class="red">67%</span>
+                  <span class="num">72,900원</span>
+                  <span class="discount">219,000원</span>
+                </div>
+                <a href="#">구매하기</a>
+              </div>
+              <div class="under_box">
+                <p>나에게 필요한 상품을 확인하세요!</p>
+                <span>자가섭취, 우리가족이 먹을 제품을 찾는<br />고객에게 적극 추천합니다.</span>
+                <a href="#">더 많은 제품 보기</a>
               </div>
             </div>
-          
-            <button class="pause"></button>
-            <div class="swiper-button-prev"><img src="./assets/img/intro-visual-arrow-prev.png" alt="이전 버튼 이미지"></div>
-            <div class="swiper-button-next"><img src="./assets/img/intro-visual-arrow-next.png" alt="다음 버튼 이미지"></div>
-          
-            <div class="swiper-scrollbar"></div>
-          </div>
-        </div>
-        <section>
-          <article class="main_content">
-            <ul>
-              <li class="left_box">
-                <h3>
-                  나를 위한
-                  <span>내가먹는 홍삼스틱</span>
-                </h3>
-                <div class="info">
-                  <p>천지양 내가먹는 홍삼스틱(10gX100포)X1박스</p>
-                  <div class="grade">
-                    <span>(499)</span>
-                  </div>
-                  <div class="price">
-                    <span class="red">67%</span>
-                    <span class="num">72,900원</span>
-                    <span class="discount">219,000원</span>
-                  </div>
-                  <a href="#">구매하기</a>
+            <div class="right_box">
+              <h3>
+                선물을 위한
+                <span class="under">천지양 명품홍삼정 골드</span>
+                <span class="arrow"></span>
+              </h3>
+              <div class="info">
+                <p>천지양 명품 홍삼정 골드(10mlX30포)X1박스 1개월분</p>
+                <div class="grade">
+                  <p class="grade-star">
+                    <span></span>
+                  </p>
+                  <span>(4)</span>
                 </div>
-                <div class="under_box">
-                  <p>나에게 필요한 상품을 확인하세요!</p>
-                  <span>자가섭취, 우리가족이 먹을 제품을 찾는<br />고객에게 적극 추천합니다.</span>
-                  <a href="#">더 많은 제품 보기</a>
+                <div class="price">
+                  <span class="red">52%</span>
+                  <span class="num">59,900원</span>
+                  <span class="discount">124,000원</span>
                 </div>
-              </li>
-              <li class="right_box">
-                <h3>
-                  선물을 위한
-                  <span>천지양 명품홍삼정 골드</span>
-                </h3>
-                <div class="info">
-                  <p>천지양 명품 홍삼정 골드(10mlX30포)X1박스 1개월분</p>
-                  <div class="grade">
-                    <span>(4)</span>
-                  </div>
-                  <div class="price">
-                    <span class="red">52%</span>
-                    <span class="num">59,900원</span>
-                    <span class="discount">124,000원</span>
-                  </div>
-                  <a href="#">구매하기</a>
-                </div>
-                <div class="under_box">
-                  <p>선물을 위한 상품을 확인하세요!</p>
-                  <span>소중한 사람의 건강을 선물 하세요.<br />이제 선물은 천지양에서 준비해보는건 어떨까요?</span>
-                  <a href="#">더 많은 제품 보기</a>
-                </div>
-              </li>
-            </ul>
+                <a href="#">구매하기</a>
+              </div>
+              <div class="under_box">
+                <p>선물을 위한 상품을 확인하세요!</p>
+                <span>소중한 사람의 건강을 선물 하세요.<br />이제 선물은 천지양에서 준비해보는건 어떨까요?</span>
+                <a href="#">더 많은 제품 보기</a>
+              </div>
+            </div>
           </article>
+          <!------- main content (E) -------->
+          <!------- todays deal (S) -------->
           <article class="todays_deal">
             <h2>Today's Deal</h2>
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <a href="#">
-                    <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
-                    <div class="tag_box">
-                      <span class="best">BEST</span>
-                      <span class="gift">GIFT</span>
-                    </div>
-                    <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
-                    <div class="grade">
-                      <span>(1)</span>
-                    </div>
-                    <div class="gray">
-                      <span>비회원가</span>
-                      <span class="discount">126,000원</span>
-                    </div>
-                    <div class="price">
-                      <span class="red">77%</span>
-                      <span>회원할인가</span>
-                      <span class="num">29,700원</span>
-                    </div>
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#">
-                    <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
-                    <div class="tag_box">
-                      <span class="best">BEST</span>
-                      <span class="gift">GIFT</span>
-                    </div>
-                    <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
-                    <div class="grade">
-                      <span>(1)</span>
-                    </div>
-                    <div class="gray">
-                      <span>비회원가</span>
-                      <span class="discount">126,000원</span>
-                    </div>
-                    <div class="price">
-                      <span class="red">77%</span>
-                      <span>회원할인가</span>
-                      <span class="num">29,700원</span>
+                    <span class="img">
+                      <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
+                    </span>
+                    <div class="txt_box">
+                      <div class="tag_box">
+                        <span class="best">BEST</span>
+                        <span class="gift">GIFT</span>
+                      </div>
+                      <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
+                      <div class="grade">
+                        <p class="grade-star">
+                          <span></span>
+                        </p>
+                        <span>(1)</span>
+                      </div>
+                      <div class="gray">
+                        <span>비회원가</span>
+                        <span class="discount">126,000원</span>
+                      </div>
+                      <div class="price">
+                        <span class="red">77%</span>
+                        <span>회원할인가</span>
+                        <span class="num">29,700원</span>
+                      </div>
                     </div>
                   </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="#">
-                    <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
-                    <div class="tag_box">
-                      <span class="best">BEST</span>
-                      <span class="gift">GIFT</span>
-                    </div>
-                    <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
-                    <div class="grade">
-                      <span>(1)</span>
-                    </div>
-                    <div class="gray">
-                      <span>비회원가</span>
-                      <span class="discount">126,000원</span>
-                    </div>
-                    <div class="price">
-                      <span class="red">77%</span>
-                      <span>회원할인가</span>
-                      <span class="num">29,700원</span>
+                    <span class="img">
+                      <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
+                    </span>
+                    <div class="txt_box">
+                      <div class="tag_box">
+                        <span class="best">BEST</span>
+                        <span class="gift">GIFT</span>
+                      </div>
+                      <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
+                      <div class="grade">
+                        <p class="grade-star">
+                          <span></span>
+                        </p>
+                        <span>(1)</span>
+                      </div>
+                      <div class="gray">
+                        <span>비회원가</span>
+                        <span class="discount">126,000원</span>
+                      </div>
+                      <div class="price">
+                        <span class="red">77%</span>
+                        <span>회원할인가</span>
+                        <span class="num">29,700원</span>
+                      </div>
+                    </div>                    
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <span class="img">
+                      <img src="./assets/img/1 (19).jpeg" alt="아스타잔틴 이미지">
+                    </span>
+                    <div class="txt_box">
+                      <div class="tag_box">
+                        <span class="best">BEST</span>
+                        <span class="gift">GIFT</span>
+                      </div>
+                      <p>천지양 눈엔 초임계 루테인 아스타잔틴(30캡슐) x3박스 3개월분</p>
+                      <div class="grade">
+                        <p class="grade-star">
+                          <span></span>
+                        </p>
+                        <span>(1)</span>
+                      </div>
+                      <div class="gray">
+                        <span>비회원가</span>
+                        <span class="discount">126,000원</span>
+                      </div>
+                      <div class="price">
+                        <span class="red">77%</span>
+                        <span>회원할인가</span>
+                        <span class="num">29,700원</span>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -289,142 +366,201 @@
               <div class="swiper-button-next"><img src="./assets/img/arrow-carousel-next.png" alt="다음 화살표 이미지"></div>
             </div>
           </article>
+          <!------- todays deal (E) -------->
+          <!------- best seller (S) -------->
           <article class="best_seller">
+            <h2>Best Seller</h2>
             <ul>
-              <li><a href="#">
-                <img src="./assets/img/1 (18).jpeg" alt="천지양 키즈 홍삼스틱 이미지">
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (18).jpeg" alt="천지양 키즈 홍삼스틱 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>천지양 튼튼쑥쑥 키즈 홍삼스틱 망고맛(19ml x 100포) x1박스</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(79)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">183,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">71%</span>
+                      <span>회원할인가</span>
+                      <span class="num">53,900원</span>
+                    </div>
+                  </div>
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>천지양 튼튼쑥쑥 키즈 홍삼스틱 망고맛(19ml x 100포) x1박스</p>
-                <div class="grade">
-                  <span>(79)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">183,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">71%</span>
-                  <span>회원할인가</span>
-                  <span class="num">53,900원</span>
-                </div>
-              </a></li>
-              <li><a href="#">
-                <img src="./assets/img/1 (16).jpeg" alt="천지양 홍삼스틱 이미지">
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (16).jpeg" alt="천지양 홍삼스틱 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>천지양 내가먹는 홍삼스틱(10g x 100포) x1박스</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(499)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">219,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">67%</span>
+                      <span>회원할인가</span>
+                      <span class="num">72,900원</span>
+                    </div>
+                  </div>                
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>천지양 내가먹는 홍삼스틱(10g x 100포) x1박스</p>
-                <div class="grade">
-                  <span>(499)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">219,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">67%</span>
-                  <span>회원할인가</span>
-                  <span class="num">72,900원</span>
-                </div>
-              </a></li>
-              <li><a href="#">
-                <img src="./assets/img/1 (15).jpeg" alt="베스처 맨파워 쏘팔메토 이미지">
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (15).jpeg" alt="베스처 맨파워 쏘팔메토 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>베스처 맨파워 쏘팔메토 프리미엄(60캡슐 x 1박스) 2개월분</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(11)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">137,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">83%</span>
+                      <span>회원할인가</span>
+                      <span class="num">23,900원</span>
+                    </div>
+                  </div>                
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>베스처 맨파워 쏘팔메토 프리미엄(60캡슐 x 1박스) 2개월분</p>
-                <div class="grade">
-                  <span>(11)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">137,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">83%</span>
-                  <span>회원할인가</span>
-                  <span class="num">23,900원</span>
-                </div>
-              </a></li>
-              <li><a href="#">
-                <img src="./assets/img/1 (17).jpeg" alt="베스처 오메가3 이미지">
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (17).jpeg" alt="베스처 오메가3 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>베스처 루테인 플러스 오메가3 멀티비타민 앤 미네랄(60캡슐 x 1병) x1박스 2개월분</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(6)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">43,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">59%</span>
+                      <span>회원할인가</span>
+                      <span class="num">17,900원</span>
+                    </div>
+                  </div>                
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>베스처 루테인 플러스 오메가3 멀티비타민 앤 미네랄(60캡슐 x 1병) x1박스 2개월분</p>
-                <div class="grade">
-                  <span>(6)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">43,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">59%</span>
-                  <span>회원할인가</span>
-                  <span class="num">17,900원</span>
-                </div>
-              </a></li>
-              <li><a href="#">
-                <img src="./assets/img/1 (12).jpeg" alt="베스처 아르기닌 6000 이미지">
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (12).jpeg" alt="베스처 아르기닌 6000 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>베스처 바이탈업 아르기닌 6000 20g x 15포 2박스</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(0)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">120,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">76%</span>
+                      <span>회원할인가</span>
+                      <span class="num">29,500원</span>
+                    </div>
+                  </div>                
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>베스처 바이탈업 아르기닌 6000 20g x 15포 2박스</p>
-                <div class="grade">
-                  <span>(0)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">120,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">76%</span>
-                  <span>회원할인가</span>
-                  <span class="num">29,500원</span>
-                </div>
-              </a></li>
-              <li><a href="#">
-                <img src="./assets/img/1 (14).jpeg" alt="천지양 고려홍삼진액 이미지">
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img_wrap">
+                    <img src="./assets/img/1 (14).jpeg" alt="천지양 고려홍삼진액 이미지">
+                  </span>                  
+                  <div class="txt_box">
+                    <p>천지양 고려홍삼진액(50ml x 30포) x2박스</p>
+                    <div class="grade">
+                      <p class="grade-star">
+                        <span></span>
+                      </p>
+                      <span>(8)</span>
+                    </div>
+                    <div class="gray">
+                      <span>비회원가</span>
+                      <span class="discount">136,000원</span>
+                    </div>
+                    <div class="price">
+                      <span class="red">77%</span>
+                      <span>회원할인가</span>
+                      <span class="num">31,800원</span>
+                    </div>
+                  </div>                
+                </a>
                 <div class="util_box">
                   <a href="#" class="payment"></a>
                   <a href="#" class="cart"></a>
                   <a href="#" class="giftbox"></a>
                   <a href="#" class="like"></a>
                 </div>
-                <p>천지양 고려홍삼진액(50ml x 30포) x2박스</p>
-                <div class="grade">
-                  <span>(8)</span>
-                </div>
-                <div class="gray">
-                  <span>비회원가</span>
-                  <span class="discount">136,000원</span>
-                </div>
-                <div class="price">
-                  <span class="red">77%</span>
-                  <span>회원할인가</span>
-                  <span class="num">31,800원</span>
-                </div>
-              </a></li>
+              </li>
             </ul>
           </article>
+          <!------- best seller (E) -------->
+          <!------- last banner (S) -------->
           <article class="last_banner">
             <div>
               <p>하루라도 편한 잠을 꿈꾸는 당신을 위해</p>
@@ -437,43 +573,53 @@
             </div>
             <img src="./assets/img/1.jpeg" alt="수면진:심 이미지">
           </article>
+          <!------- last banner (E) -------->
+          <!------- brand story (S) -------->
           <article class="brand_story">
+            <h3>BRAND STORY</h3>
             <ul class="depth1">
-              <li>
+              <li class="item1">
                 <h3>오랜 역사속 증명된 원료</h3>
                 <p>지친 현대인들에게 필요한 부분을<br />오랜 역사속에서 증명된 원료로 채우다.</p>
               </li>
-              <li>
+              <li class="item2">
                 <h3>15년의 노하우</h3>
                 <p>천지양은 15년의 노하우로 심혈을 기울여<br />천지양 브랜드 전문성 원리에 따라 제품을 만듭니다.</p>
               </li>
-              <li>
+              <li class="item3">
                 <h3>고객감동브랜드지수 1위</h3>
                   <p>고객감동브랜드지수 1위에 걸맞게<br />소비자의 건강 고민을 집중적으로 연구하고<br />꼭 필요한 성분과 우리의 가치를 담겠습니다.</p>
               </li>
             </ul>
             <a href="#"></a>
           </article>
+          <!------- last banner (E) -------->
         </section>
-      </div>
     </main>
+    <!---------------------- main (E) -------------------->
+    <!---------------------- footer (S) -------------------->
     <footer>
       <div class="inner">
+        <!------- top box (S) -------->
         <div class="top_box">
-          <ul>
+          <ul class="left">
             <li><a href="#">이용약관</a></li>
             <li><a href="#">개인정보처리방침</a></li>
             <li><a href="#">이용안내</a></li>
             <li><a href="#">광고제휴문의</a></li>
           </ul>
-          <div>
-            FAMILY SITE
-            <ul>
-              <li><a href="#">스키니랩</a></li>
-              <li><a href="#">피트니스 스토어</a></li>
-            </ul>
-          </div>
+          <ul class="right">
+            <li>
+              FAMILY SITE
+              <ul class="depth2">
+                <li><a href="#">스키니랩</a></li>
+                <li><a href="#">피트니스 스토어</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
+        <!------- top box (E) -------->
+        <!------- under box (S) -------->
         <div class="under_box">
           <div class="left">
             <h2><img src="./assets/img/logo-footer.png" alt="health balance 로고 이미지"></h2>
@@ -493,6 +639,12 @@
                 <li>E-mail : kwlee@hbalance.co.kr</li>
               </ul>
             </address>
+            <div class="kginisis">
+              <a href="#"><img src="./assets/img/logo-inipay.png" alt="inipay 로고 이미지"></a>
+              <a href="#"><img src="./assets/img/logo-escrow.png" alt="escrow 로고 이미지"></a>
+              <p>KG이니시스가 제공하는 결제시스템을 사용하고 있는 쇼핑몰임을 확인하여<br />
+                소비자들은 안심하고 결제할 수 있습니다.</p>
+            </div>
           </div>
           <div class="right">
             <strong>070-8233-2213</strong>
@@ -505,25 +657,20 @@
             <p>※ 토/일/공휴일 휴무</p>
           </div>
         </div>
-        <div class="kginisis">
-          <a href="#"><img src="./assets/img/logo-inipay.png" alt="inipay 로고 이미지"></a>
-          <a href="#"><img src="./assets/img/logo-escrow.png" alt="escrow 로고 이미지"></a>
-          <p>KG이니시스가 제공하는 결제시스템을 사용하고 있는 쇼핑몰임을 확인하여<br />
-            소비자들은 안심하고 결제할 수 있습니다.</p>
-        </div>
+        <!------- under box (E) -------->
       </div>
     </footer>
+    <!---------------------- footer (E) -------------------->
     <div class="fixed_icons">
       <button class="btn_plus"></button>
-      <button class="btn_more">
-        <ul>
-          <li><a href="#" class="btn_gift"></a></li>
-          <li><a href="#" class="btn_kakao"></a></li>
-        </ul>
-      </button>
+      <div>
+        <a href="#" class="btn_gift"></a>
+        <a href="#" class="btn_kakao"></a>
+      </div>
+      <button class="btn_more"></button>
       <button class="btn_up"></button>
     </div>
-  </div>
+  </div> 
   <script src="./js/jQuery-3.7.0.min.js"></script>
   <script src="./js/index.js"></script>
 </body>
