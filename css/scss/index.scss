@@ -53,7 +53,7 @@ header{
               right: 0;
               width: 28px;
               height: 20px;
-              background: transparent url(../../assets/img/btn-header-search.png) no-repeat center center/ 20px;
+              background: transparent url(../assets/img/btn-header-search.png) no-repeat center center/ 20px;
               border: none;
             }
           }
@@ -162,13 +162,13 @@ header{
         z-index: 100;
       }
       .util_icon1{
-        background-image:  url(../../assets/img/icon-util-login.png);
+        background-image:  url(../assets/img/icon-util-login.png);
       }
       .util_icon2{
-        background-image:  url(../../assets/img/icon-util-join.png);
+        background-image:  url(../assets/img/icon-util-join.png);
       }
       .util_icon3{
-        background-image:  url(../../assets/img/icon-util-cart.png);
+        background-image:  url(../assets/img/icon-util-cart.png);
         span{
           display: flex;
           justify-content: center;
@@ -186,10 +186,10 @@ header{
         }
       }
       .util_icon4{
-        background-image:  url(../../assets/img/icon-util-customer.png);
+        background-image:  url(../assets/img/icon-util-customer.png);
       }
       .util_icon5{
-        background-image:  url(../../assets/img/icon-util-hb.png);
+        background-image:  url(../assets/img/icon-util-hb.png);
       }
     }
     // -------------- sub nav (E) ---------------
@@ -230,9 +230,9 @@ main{
               width: 90px;
               margin: 40px 0 0 10px;
               padding-top: 50px;
-              background: url(../../assets/img/arrow-detail.png) no-repeat center /90px 15px;
+              background: url(../assets/img/arrow-detail.png) no-repeat center /90px 15px;
               &:hover{
-                background-image: url(../../assets/img/arrow-detail-on.png);
+                background-image: url(../assets/img/arrow-detail-on.png);
               }
             }
           }
@@ -260,12 +260,12 @@ main{
           width: 7px;
           height: 10px;
           margin-left: 135px;
-          background: transparent url(../../assets/img/btn-carousel-paus02.png) no-repeat center/7px;
+          background: transparent url(../assets/img/btn-carousel-paus02.png) no-repeat center/7px;
           border: none;
           cursor: pointer;
         }
         .active{
-          background-image: url(../../assets/img/btn-carousel-play02.png);
+          background-image: url(../assets/img/btn-carousel-play02.png);
         }
         .btn_box{
           display: flex;
@@ -329,7 +329,7 @@ main{
           display: block;
           width: 90px;
           height: 20px;
-          background: url(../../assets/img/arrow-detail.png) no-repeat;
+          background: url(../assets/img/arrow-detail.png) no-repeat;
           opacity: 0;
         }
       }
@@ -354,7 +354,7 @@ main{
             top: 3px;
             width: 55px;
             height: 11px;
-            background: url(../../assets/img/grade-star-small-bg.png) no-repeat ;
+            background: url(../assets/img/grade-star-small-bg.png) no-repeat ;
             > span{
               display: block;
               position: absolute;
@@ -362,7 +362,7 @@ main{
               left: 0;
               width: 80%;
               height: 11px;
-              background: url(../../assets/img/grade-star-small.png) no-repeat;
+              background: url(../assets/img/grade-star-small.png) no-repeat;
               overflow: hidden;
             }
           }
@@ -452,7 +452,7 @@ main{
             width: 6px;
             height: 10px;
             margin-left: 10px;
-            background: url(../../assets/img/arrow-gt01.png) no-repeat right top;
+            background: url(../assets/img/arrow-gt01.png) no-repeat right top;
           }
         }
       }
@@ -464,7 +464,7 @@ main{
         display: block;
         width: 100%;
         height: 100%;
-        background: url(../../assets/img/stick1.png) no-repeat left 120px top 450px/130%;
+        background: url(../assets/img/stick1.png) no-repeat left 120px top 450px/130%;
         transition: all 0.7s;
       }
       h3{
@@ -477,7 +477,7 @@ main{
       }
       .under_box{
         left: 50%;
-        background-image: url(../../assets/img/brand-item11.jpeg);
+        background-image: url(../assets/img/brand-item11.jpeg);
       }
       &:hover{
         width: 100%;
@@ -517,7 +517,7 @@ main{
         display: block;
         width: 100%;
         height: 100%;
-        background: url(../../assets/img/stick2.png) no-repeat right 120px top 447px/130%;
+        background: url(../assets/img/stick2.png) no-repeat right 120px top 447px/130%;
         transition: all 0.7s;
       }
       h3{
@@ -546,7 +546,7 @@ main{
       }
       .under_box{
         right: 50%;
-        background-image: url(../../assets/img/brand-item13.jpeg);
+        background-image: url(../assets/img/brand-item13.jpeg);
       }
       &:hover{
         width: 100%;
@@ -652,7 +652,7 @@ main{
                 top: 3px;
                 width: 55px;
                 height: 11px;
-                background: url(../../assets/img/grade-star-small-bg.png) no-repeat ;
+                background: url(../assets/img/grade-star-small-bg.png) no-repeat ;
                 > span{
                   display: block;
                   position: absolute;
@@ -660,7 +660,7 @@ main{
                   left: 0;
                   width: 80%;
                   height: 11px;
-                  background: url(../../assets/img/grade-star-small.png) no-repeat;
+                  background: url(../assets/img/grade-star-small.png) no-repeat;
                   overflow: hidden;
                 }
               }
@@ -820,7 +820,7 @@ main{
                 top: 3px;
                 width: 55px;
                 height: 11px;
-                background: url(../../assets/img/grade-star-small-bg.png) no-repeat ;
+                background: url(../assets/img/grade-star-small-bg.png) no-repeat ;
                 > span{
                   display: block;
                   position: absolute;
@@ -828,7 +828,7 @@ main{
                   left: 0;
                   width: 80%;
                   height: 11px;
-                  background: url(../../assets/img/grade-star-small.png) no-repeat;
+                  background: url(../assets/img/grade-star-small.png) no-repeat;
                   overflow: hidden;
                 }
               }
@@ -897,16 +897,16 @@ main{
             background: no-repeat center /25px;
           }
           .payment{
-            background-image: url(../../assets/img/icon-payment.png);
+            background-image: url(../assets/img/icon-payment.png);
           }
           .cart{
-            background-image: url(../../assets/img/icon-cart.png);
+            background-image: url(../assets/img/icon-cart.png);
           }
           .giftbox{
-            background-image: url(../../assets/img/icon-gift.png);
+            background-image: url(../assets/img/icon-gift.png);
           }
           .like{
-            background-image: url(../../assets/img/check-like.png);
+            background-image: url(../assets/img/check-like.png);
             background-size: 20px;
           }
         }
@@ -1093,26 +1093,26 @@ main{
       }
       .item1{
         &::before{
-          background-image: url(../../assets/img/brand-story1-img1.png) ;
+          background-image: url(../assets/img/brand-story1-img1.png) ;
         }
         &::after{
-          background-image: url(../../assets/img/brand-story1-img2.png) ;
+          background-image: url(../assets/img/brand-story1-img2.png) ;
         }
       }
       .item2{
         &::before{
-          background-image: url(../../assets/img/brand-story2-img1.png) ;
+          background-image: url(../assets/img/brand-story2-img1.png) ;
         }
         &::after{
-          background-image: url(../../assets/img/brand-story2-img2.png) ;
+          background-image: url(../assets/img/brand-story2-img2.png) ;
         }
       }
       .item3{
         &::before{
-          background-image: url(../../assets/img/brand-story3-img1.png) ;
+          background-image: url(../assets/img/brand-story3-img1.png) ;
         }
         &::after{
-          background-image: url(../../assets/img/brand-story3-img2.png) ;
+          background-image: url(../assets/img/brand-story3-img2.png) ;
         }
       }
       .active{
@@ -1146,7 +1146,7 @@ main{
       left: 50%;
       width: 130px;
       height: 100px;
-      background: url(../../assets/img/btn-arrow-link.png) no-repeat center / 90px 16px;
+      background: url(../assets/img/btn-arrow-link.png) no-repeat center / 90px 16px;
       transform: translate(-50%,0);
     }
   }
@@ -1201,7 +1201,7 @@ footer{
             right: 6px;
             width: 12px;
             height: 10px;
-            background: url(../../assets/img/arrow-select.png) no-repeat center/cover;
+            background: url(../assets/img/arrow-select.png) no-repeat center/cover;
             transition: all .2s;
           }
           &:hover{
@@ -1284,7 +1284,7 @@ footer{
                   width: 6px;
                   height: 8px;
                   margin-left: 4px;
-                  background: url(../../assets/img/arrow-company-link.png) no-repeat center;
+                  background: url(../assets/img/arrow-company-link.png) no-repeat center;
                 }
                 &:hover{
                   font-weight: 700;
@@ -1388,21 +1388,21 @@ footer{
     }
     .btn_gift{
       background-color: #d53147;
-      background-image: url(../../assets/img/btn-floating-gift.png);
+      background-image: url(../assets/img/btn-floating-gift.png);
     }
     .btn_kakao{
       background-color: #fae300;
-      background-image: url(../../assets/img/btn-floating-kakaotalk.png);
+      background-image: url(../assets/img/btn-floating-kakaotalk.png);
     }
   }
   .btn_plus{
-    background-image:  url(../../assets/img/btn-floating-recent.png);
+    background-image:  url(../assets/img/btn-floating-recent.png);
   }
   .btn_more{
-    background-image:  url(../../assets/img/btn-floating-more.png);
+    background-image:  url(../assets/img/btn-floating-more.png);
   }
   .btn_up{
-    background-image:  url(../../assets/img/btn-floating-up.png);
+    background-image:  url(../assets/img/btn-floating-up.png);
   }
   .is-open{
     height: 117px;
@@ -1411,7 +1411,7 @@ footer{
   }
   .active{
     background-color: #000;
-    background-image:  url(../../assets/img/btn-floating-more-active.png);
+    background-image:  url(../assets/img/btn-floating-more-active.png);
   }
   .is-up{
     bottom: 250px;

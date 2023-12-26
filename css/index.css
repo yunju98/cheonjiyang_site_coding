@@ -112,7 +112,7 @@ header .inner nav .search_box form fieldset button {
   right: 0;
   width: 28px;
   height: 20px;
-  background: transparent url(../../assets/img/btn-header-search.png) no-repeat center center/20px;
+  background: transparent url(../assets/img/btn-header-search.png) no-repeat center center/20px;
   border: none;
 }
 header .inner nav .search_box form .hot_issue {
@@ -206,13 +206,13 @@ header .inner .sub_nav a {
   z-index: 100;
 }
 header .inner .sub_nav .util_icon1 {
-  background-image: url(../../assets/img/icon-util-login.png);
+  background-image: url(../assets/img/icon-util-login.png);
 }
 header .inner .sub_nav .util_icon2 {
-  background-image: url(../../assets/img/icon-util-join.png);
+  background-image: url(../assets/img/icon-util-join.png);
 }
 header .inner .sub_nav .util_icon3 {
-  background-image: url(../../assets/img/icon-util-cart.png);
+  background-image: url(../assets/img/icon-util-cart.png);
 }
 header .inner .sub_nav .util_icon3 span {
   display: flex;
@@ -230,10 +230,10 @@ header .inner .sub_nav .util_icon3 span {
   border-radius: 20px;
 }
 header .inner .sub_nav .util_icon4 {
-  background-image: url(../../assets/img/icon-util-customer.png);
+  background-image: url(../assets/img/icon-util-customer.png);
 }
 header .inner .sub_nav .util_icon5 {
-  background-image: url(../../assets/img/icon-util-hb.png);
+  background-image: url(../assets/img/icon-util-hb.png);
 }
 
 main .main_banner .swiper .swiper-wrapper .swiper-slide img {
@@ -264,10 +264,10 @@ main .main_banner .swiper .swiper-wrapper .swiper-slide .text a {
   width: 90px;
   margin: 40px 0 0 10px;
   padding-top: 50px;
-  background: url(../../assets/img/arrow-detail.png) no-repeat center/90px 15px;
+  background: url(../assets/img/arrow-detail.png) no-repeat center/90px 15px;
 }
 main .main_banner .swiper .swiper-wrapper .swiper-slide .text a:hover {
-  background-image: url(../../assets/img/arrow-detail-on.png);
+  background-image: url(../assets/img/arrow-detail-on.png);
 }
 main .main_banner .swiper .swiper_action {
   display: flex;
@@ -292,12 +292,12 @@ main .main_banner .swiper .swiper_action .btn_pause {
   width: 7px;
   height: 10px;
   margin-left: 135px;
-  background: transparent url(../../assets/img/btn-carousel-paus02.png) no-repeat center/7px;
+  background: transparent url(../assets/img/btn-carousel-paus02.png) no-repeat center/7px;
   border: none;
   cursor: pointer;
 }
 main .main_banner .swiper .swiper_action .active {
-  background-image: url(../../assets/img/btn-carousel-play02.png);
+  background-image: url(../assets/img/btn-carousel-play02.png);
 }
 main .main_banner .swiper .swiper_action .btn_box {
   display: flex;
@@ -359,7 +359,7 @@ main .main_content > div h3 .arrow {
   display: block;
   width: 90px;
   height: 20px;
-  background: url(../../assets/img/arrow-detail.png) no-repeat;
+  background: url(../assets/img/arrow-detail.png) no-repeat;
   opacity: 0;
 }
 main .main_content > div .info {
@@ -385,7 +385,7 @@ main .main_content > div .info .grade .grade-star {
   top: 3px;
   width: 55px;
   height: 11px;
-  background: url(../../assets/img/grade-star-small-bg.png) no-repeat;
+  background: url(../assets/img/grade-star-small-bg.png) no-repeat;
 }
 main .main_content > div .info .grade .grade-star > span {
   display: block;
@@ -394,7 +394,7 @@ main .main_content > div .info .grade .grade-star > span {
   left: 0;
   width: 80%;
   height: 11px;
-  background: url(../../assets/img/grade-star-small.png) no-repeat;
+  background: url(../assets/img/grade-star-small.png) no-repeat;
   overflow: hidden;
 }
 main .main_content > div .info .grade > span {
@@ -483,7 +483,7 @@ main .main_content > div .under_box a::after {
   width: 6px;
   height: 10px;
   margin-left: 10px;
-  background: url(../../assets/img/arrow-gt01.png) no-repeat right top;
+  background: url(../assets/img/arrow-gt01.png) no-repeat right top;
 }
 main .main_content .left_box {
   border-right: 1px solid #ccc;
@@ -493,7 +493,7 @@ main .main_content .left_box::after {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../../assets/img/stick1.png) no-repeat left 120px top 450px/130%;
+  background: url(../assets/img/stick1.png) no-repeat left 120px top 450px/130%;
   transition: all 0.7s;
 }
 main .main_content .left_box h3 span {
@@ -504,7 +504,7 @@ main .main_content .left_box .info {
 }
 main .main_content .left_box .under_box {
   left: 50%;
-  background-image: url(../../assets/img/brand-item11.jpeg);
+  background-image: url(../assets/img/brand-item11.jpeg);
 }
 main .main_content .left_box:hover {
   width: 100%;
@@ -542,7 +542,7 @@ main .main_content .right_box::after {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../../assets/img/stick2.png) no-repeat right 120px top 447px/130%;
+  background: url(../assets/img/stick2.png) no-repeat right 120px top 447px/130%;
   transition: all 0.7s;
 }
 main .main_content .right_box h3 {
@@ -571,7 +571,7 @@ main .main_content .right_box .info a {
 }
 main .main_content .right_box .under_box {
   right: 50%;
-  background-image: url(../../assets/img/brand-item13.jpeg);
+  background-image: url(../assets/img/brand-item13.jpeg);
 }
 main .main_content .right_box:hover {
   width: 100%;
@@ -677,7 +677,7 @@ main .todays_deal .swiper .swiper-slide a .txt_box .grade .grade-star {
   top: 3px;
   width: 55px;
   height: 11px;
-  background: url(../../assets/img/grade-star-small-bg.png) no-repeat;
+  background: url(../assets/img/grade-star-small-bg.png) no-repeat;
 }
 main .todays_deal .swiper .swiper-slide a .txt_box .grade .grade-star > span {
   display: block;
@@ -686,7 +686,7 @@ main .todays_deal .swiper .swiper-slide a .txt_box .grade .grade-star > span {
   left: 0;
   width: 80%;
   height: 11px;
-  background: url(../../assets/img/grade-star-small.png) no-repeat;
+  background: url(../assets/img/grade-star-small.png) no-repeat;
   overflow: hidden;
 }
 main .todays_deal .swiper .swiper-slide a .txt_box .grade > span {
@@ -833,7 +833,7 @@ main .best_seller > ul > li > a > .txt_box .grade .grade-star {
   top: 3px;
   width: 55px;
   height: 11px;
-  background: url(../../assets/img/grade-star-small-bg.png) no-repeat;
+  background: url(../assets/img/grade-star-small-bg.png) no-repeat;
 }
 main .best_seller > ul > li > a > .txt_box .grade .grade-star > span {
   display: block;
@@ -842,7 +842,7 @@ main .best_seller > ul > li > a > .txt_box .grade .grade-star > span {
   left: 0;
   width: 80%;
   height: 11px;
-  background: url(../../assets/img/grade-star-small.png) no-repeat;
+  background: url(../assets/img/grade-star-small.png) no-repeat;
   overflow: hidden;
 }
 main .best_seller > ul > li > a > .txt_box .grade > span {
@@ -908,16 +908,16 @@ main .best_seller > ul > li .util_box a {
   background: no-repeat center/25px;
 }
 main .best_seller > ul > li .util_box .payment {
-  background-image: url(../../assets/img/icon-payment.png);
+  background-image: url(../assets/img/icon-payment.png);
 }
 main .best_seller > ul > li .util_box .cart {
-  background-image: url(../../assets/img/icon-cart.png);
+  background-image: url(../assets/img/icon-cart.png);
 }
 main .best_seller > ul > li .util_box .giftbox {
-  background-image: url(../../assets/img/icon-gift.png);
+  background-image: url(../assets/img/icon-gift.png);
 }
 main .best_seller > ul > li .util_box .like {
-  background-image: url(../../assets/img/check-like.png);
+  background-image: url(../assets/img/check-like.png);
   background-size: 20px;
 }
 main .best_seller > ul > li:hover > a .img_wrap img {
@@ -1089,22 +1089,22 @@ main .brand_story .depth1 li::after {
   z-index: 1;
 }
 main .brand_story .depth1 .item1::before {
-  background-image: url(../../assets/img/brand-story1-img1.png);
+  background-image: url(../assets/img/brand-story1-img1.png);
 }
 main .brand_story .depth1 .item1::after {
-  background-image: url(../../assets/img/brand-story1-img2.png);
+  background-image: url(../assets/img/brand-story1-img2.png);
 }
 main .brand_story .depth1 .item2::before {
-  background-image: url(../../assets/img/brand-story2-img1.png);
+  background-image: url(../assets/img/brand-story2-img1.png);
 }
 main .brand_story .depth1 .item2::after {
-  background-image: url(../../assets/img/brand-story2-img2.png);
+  background-image: url(../assets/img/brand-story2-img2.png);
 }
 main .brand_story .depth1 .item3::before {
-  background-image: url(../../assets/img/brand-story3-img1.png);
+  background-image: url(../assets/img/brand-story3-img1.png);
 }
 main .brand_story .depth1 .item3::after {
-  background-image: url(../../assets/img/brand-story3-img2.png);
+  background-image: url(../assets/img/brand-story3-img2.png);
 }
 main .brand_story .depth1 .active {
   margin-bottom: 50px;
@@ -1136,7 +1136,7 @@ main .brand_story > a {
   left: 50%;
   width: 130px;
   height: 100px;
-  background: url(../../assets/img/btn-arrow-link.png) no-repeat center/90px 16px;
+  background: url(../assets/img/btn-arrow-link.png) no-repeat center/90px 16px;
   transform: translate(-50%, 0);
 }
 
@@ -1189,7 +1189,7 @@ footer .inner .top_box .right > li::after {
   right: 6px;
   width: 12px;
   height: 10px;
-  background: url(../../assets/img/arrow-select.png) no-repeat center/cover;
+  background: url(../assets/img/arrow-select.png) no-repeat center/cover;
   transition: all 0.2s;
 }
 footer .inner .top_box .right > li:hover {
@@ -1267,7 +1267,7 @@ footer .inner .under_box .left address ul li a::after {
   width: 6px;
   height: 8px;
   margin-left: 4px;
-  background: url(../../assets/img/arrow-company-link.png) no-repeat center;
+  background: url(../assets/img/arrow-company-link.png) no-repeat center;
 }
 footer .inner .under_box .left address ul li a:hover {
   font-weight: 700;
@@ -1364,20 +1364,20 @@ footer .inner .under_box .right p {
 }
 .fixed_icons div .btn_gift {
   background-color: #d53147;
-  background-image: url(../../assets/img/btn-floating-gift.png);
+  background-image: url(../assets/img/btn-floating-gift.png);
 }
 .fixed_icons div .btn_kakao {
   background-color: #fae300;
-  background-image: url(../../assets/img/btn-floating-kakaotalk.png);
+  background-image: url(../assets/img/btn-floating-kakaotalk.png);
 }
 .fixed_icons .btn_plus {
-  background-image: url(../../assets/img/btn-floating-recent.png);
+  background-image: url(../assets/img/btn-floating-recent.png);
 }
 .fixed_icons .btn_more {
-  background-image: url(../../assets/img/btn-floating-more.png);
+  background-image: url(../assets/img/btn-floating-more.png);
 }
 .fixed_icons .btn_up {
-  background-image: url(../../assets/img/btn-floating-up.png);
+  background-image: url(../assets/img/btn-floating-up.png);
 }
 .fixed_icons .is-open {
   height: 117px;
@@ -1386,7 +1386,7 @@ footer .inner .under_box .right p {
 }
 .fixed_icons .active {
   background-color: #000;
-  background-image: url(../../assets/img/btn-floating-more-active.png);
+  background-image: url(../assets/img/btn-floating-more-active.png);
 }
 .fixed_icons .is-up {
   bottom: 250px;
